@@ -1,0 +1,749 @@
+/* Import des fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* <i class="fa-solid fa-chevron-up"></i>
+<i class="fa-solid fa-chevron-down"></i> */
+
+/* Uniformisation du document */
+
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background:linear-gradient(212.91deg, rgba(0, 0, 0, 0.24) 100%, rgba(0, 0, 0, 0.98) 100%),  url(/img/Background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+:root{
+    /* Fonts */
+    --zen:"Zen Dots", serif;
+    --mont:"Montserrat", serif;
+    /* Colors */
+    --white-text:#FFFFFF;
+    --pink-text:#FD307A;
+    --blue-text:#A5B8D2;
+    --white-opac:#FFFFFFAD;
+    --dark-background:#293445;
+    --border-sect:#FFFFFF36;
+}
+
+h1{
+    font-family: var(--zen);
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 100px;
+    color: var(--white-text);
+    max-width: 975px;
+    margin-bottom: 72px;
+}
+
+h2{
+    font-family: var(--zen);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: var(--white-text);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: var(--zen);
+    font-size: 55px;
+    font-weight: 400;
+    color: var(--white-text);
+}
+
+h4{
+    font-family: var(--zen);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: var(--pink-text);
+    text-transform: uppercase;
+}
+
+h5{
+    font-family: var(--zen);
+    font-size: 37px;
+    font-weight: 400;
+    color: var(--white-text);
+    padding: 30px 0;
+}
+
+h6{
+    font-family: var(--zen);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--white-text);
+}
+
+p{
+    font-family: var(--mont);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    color: var(--white-opac);
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.container-1920{
+    max-width: 1920px;
+    margin: auto;
+}
+
+.container-1300{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.container-1040{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.container-1000{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container-700{
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Header */
+
+#burgermenu{
+    display: none;
+}
+
+header{
+    min-height: 80px;
+}
+
+.gamedev{
+    width: 136px;
+}
+
+#header-div{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 22px 15px;
+}
+
+header ul{
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+}
+
+header nav a{
+    font-family: var(--mont);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white-text);
+}
+
+.current{
+    color: var(--pink-text);
+}
+
+header nav a:hover{
+    color: var(--pink-text);
+    transition: 0.3s;
+}
+
+/* Main */
+
+/* Section 1 : Welcome */
+
+#welcome{
+    min-height: 1000px;
+    align-content: end;
+}
+
+#welcome p{
+    font-family: var(--zen);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--white-text);
+    margin-top: 33px;
+}
+
+#welcome h4{
+    padding-top: 38px;
+}
+
+#welcome-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    min-height: 228px;
+}
+
+#welcome-div div{
+    border-top: 1px solid var(--border-sect);
+    border-bottom: 1px solid var(--border-sect);
+    border-left: 1px solid var(--border-sect);
+    padding: 0 30px;
+}
+
+#O4{
+    border-right: 1px solid var(--border-sect);
+}
+
+/* Section 2 : Team of artists */
+
+#artist{
+    min-height: 1017px;
+    background-image: url(/img/Background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+}
+
+#artist article{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#artist img{
+    height: 817px;
+    object-fit: cover;
+}
+
+.button{
+    font-family: var(--zen);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 5px;
+    color: var(--white-text);
+    border: 1px solid var(--white-text);
+    text-transform: uppercase;
+    padding: 21px 31px;
+}
+
+.button:hover{
+    background-color: var(--pink-text);
+}
+
+#artist h2{
+    color: var(--blue-text);
+    margin-top: 120px;
+}
+
+#artist h3,
+#artist p{
+    max-width: 500px;
+}
+
+#artist h3{
+    margin-bottom: 90px;
+}
+
+#artist p{
+    margin-bottom: 48px;
+}
+
+#artist div{
+    padding: 0 75px;
+}
+
+/* Section 3 : Popular platform */
+
+#popular-platform{
+    min-height: 1104px;
+    background-image: url(/img/Background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#popular-platform ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+#list{
+    padding-top: 50px;
+}
+
+.platforms{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-bottom: 1px solid var(--border-sect);
+    color: var(--white-text);
+    font-family: var(--zen);
+    font-size: 37px;
+    font-weight: 400;
+}
+
+.platforms ul{
+    grid-column: 1 / 3;
+    padding: 30px 0;
+}
+
+.platforms ul li{
+    font-family: var(--mont);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    color: var(--white-opac);
+
+}
+
+#popular-platform > article > ul > li:nth-child(n) > i.fa-solid.fa-chevron-down{
+    display: none;
+}
+
+.dropdown-content{
+    position: absolute;
+    display: none;
+    width: 100%;
+}
+
+.platforms:hover .dropdown-content {
+    display: block;
+    position: relative;
+    transition: 0.6s;
+}
+
+.platforms:hover{
+    color: var(--pink-text);
+}
+
+.platforms:hover .fa-chevron-up{
+    display: none!important;
+}
+.platforms:hover .fa-chevron-down{
+    display: flex!important;
+}
+
+/* .platforms:hover #list > li:nth-child(1) > i.fa-solid.fa-chevron-up{
+    display: block;
+}
+
+.platforms:hover #list > li:nth-child(1) > i.fa-solid.fa-chevron-up{
+    display: none;
+} */
+
+#open{
+    display: block !important;
+}
+
+#open div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#popular-platform i{
+    font-size: 16px;
+    font-weight: 900;
+    display: flex;
+    justify-content: end;
+}
+
+#open > div > i{
+    color: var(--pink-text);
+}
+
+/* Section 4 : Our Projects */
+
+#game-projects{
+    background-color: var(--dark-background);
+}
+
+#project-div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+#project-div1 i{
+    font-size: 12px;
+}
+
+#project-div1 a{
+    font-family: var(--zen);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: var(--white-text);
+    text-transform: uppercase;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+#project-div1 a:hover{
+    color: var(--pink-text);
+    transition: 0.3s;
+}
+
+#project-div2{
+    min-height: 756px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#project-div2 span{
+    align-content: end;
+    padding: 25px;
+    max-width: 100%;
+}
+
+#project-div2 h5{
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 39.6px;
+}
+
+#wor{
+    background: linear-gradient(212.91deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.98) 100%), url(/img/WorldOfRobots.jpg);
+    background-size: cover;
+}
+
+#ba{
+    background: linear-gradient(212.91deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.98) 100%), url(/img/BeautifulAmalthea.jpg);
+    background-size: cover;
+}
+
+#twl{
+    background: linear-gradient(212.91deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.98) 100%), url(/img/TheWarriorsLounge.jpg);
+    background-size: cover;
+}
+
+#ja{
+    background: linear-gradient(212.91deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.98) 100%), url(/img/JungleAdventures.jpg);
+    background-size: cover;
+}
+
+#wor:hover{
+    background-image: url(/img/WorldOfRobots.jpg);
+    transition: 0.3s;
+}
+
+#ba:hover{
+    background-image: url(/img/BeautifulAmalthea.jpg);
+    transition: 0.3s;
+}
+
+#twl:hover{
+    background-image: url(/img/TheWarriorsLounge.jpg);
+    transition: 0.3s;
+}
+
+#ja:hover{
+    background-image: url(/img/JungleAdventures.jpg);
+    transition: 0.3s;
+}
+
+/* Section 5 : Choose Us & Popular Clients */
+
+#cupc{
+    background: linear-gradient(to left, rgba(41, 52, 69, 0.6) -26.48%, rgba(41, 52, 69, 0.6) 73.52%), url(/img/Background3Et4.jpg);
+    background-size: cover;
+}
+
+/* Choose Us */
+
+#choose-us{
+    padding-top: 150px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--border-sect);
+}
+
+#choose-us div{
+    margin-top: 75px;
+}
+
+#choose-us h4{
+    font-size: 25px;
+    text-transform: none;
+    color: var(--white-text);
+    letter-spacing: 0;
+}
+
+#choose-us div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+/* Popular Clients */
+
+#popular-clients{
+    margin-top: 120px;
+    padding-bottom: 150px;
+}
+
+#popular-clients h3{
+    margin-bottom: 50px;
+}
+
+#popular-clients img{
+    max-width: 250px;
+    max-height: 160px;
+}
+
+#popular-clients div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* Section 6 : Contact */
+
+#contact{
+    min-height: 756px;
+    background: linear-gradient(212.91deg, rgba(0, 0, 0, 0.46) 100%, rgba(0, 0, 0, 0.98) 100%),  url(/img/Background5.jpg);
+    background-size: cover;
+    align-content: center;
+    text-align: center;
+}
+
+#trait{
+    width: 70px;
+    margin: auto;
+    border-top: 1px solid var(--pink-text) ;
+    margin-bottom: 35px;
+}
+
+#contact h3{
+    margin-bottom: 15px;
+}
+
+#contact p{
+    margin-bottom: 50px;
+}
+
+/* Footer */
+
+footer{
+    background-color: var(--dark-background);
+}
+
+#footer-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#links{
+    grid-column: 3;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#address{
+    grid-column: 4;
+}
+
+footer div{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer h4{
+    margin-bottom: 40px;
+}
+
+footer img{
+    margin-bottom: 10px;
+}
+
+#links a{
+    color: var(--white-opac);
+    font-family: var(--mont);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#links a:hover{
+    color: var(--pink-text);
+    transition: 0.3s;
+}
+
+/* Responsive Tablette */
+
+@media screen and (max-width:1024px) {
+    #menu{
+        display: none;
+    }
+    #burgermenu{
+        display: block;
+        color: var(--white-text);
+        font-size: 20px;
+        line-height: 19px;
+        padding: 10px 11px;
+        background-color: var(--pink-text);
+        border: 1px solid var(--pink-text);
+        border-radius: 25px;
+    }
+    h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    h2{
+        font-size: 12.8px;
+        letter-spacing: 3px;
+    }
+    h3{
+        font-size: 40px;
+        line-height: 44px;
+    }
+    h5{
+        font-size: 33px;
+    }
+    h6{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14.6px;
+        line-height: 23.35px;
+    }
+    #welcome-div{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #welcome-div div{
+        border-bottom: none;
+    }
+    #welcome p{
+        padding-bottom: 30px;
+    }
+    #O2{
+        border-right: 1px solid var(--border-sect);
+    }
+    #artist h3{
+        margin-bottom: 40px;
+    }
+    #artist h2{
+        margin-top: 90px;
+    }
+    #project-div2{
+        grid-template-columns: 1fr 1fr;
+    }
+    #project-div2 span{
+        min-height: 670px;
+    }
+    #project-div1{
+        display: block;
+    }
+    #project-div1 h3{
+        padding-bottom: 50px;
+    }
+    #choose-us{
+        max-width: 94%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #choose-us h3{
+        padding-right: 40px;
+    }
+    #choose-us h4{
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+    #choose-us p{
+        padding-right: 50px;
+    }
+    #popular-clients{
+        padding-bottom: 40px;
+    }
+    #footer-copyright{
+        grid-column: 1 / 3;
+    }
+}
+
+/* Responsive Mobile */
+
+@media screen and (max-width:767px) {
+    .container-1300{
+        padding: 0 7px;
+    }
+    h1{
+        font-size: 37px;
+        line-height: 37px;
+        word-break: break-word;
+    }
+    h3{
+        font-size: 25px;
+        line-height: 27.5px;
+    }
+    h5{
+        font-size: 25px;
+    }
+    #welcome-div{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #welcome-div div{
+        border-right: 1px solid var(--border-sect);
+    }
+    #artist article{
+        grid-template-columns: 1fr;
+    }
+    #artist div{
+        padding: 0 15px;
+        padding-bottom: 80px;
+    }
+    #artist .container-1300{
+        padding: 0;
+    }
+    #popular-platform{
+        min-height: 800px;
+    }
+    #project-div1{
+        padding: 25px;
+    }
+    #project-div1 a{
+        gap: 10px;
+    }
+    #project-div2{
+        grid-template-columns: 1fr;
+    }
+    #project-div2 span{
+        padding: 20px;
+    }
+    #choose-us div{
+        grid-template-columns: 1fr;
+    }
+    #popular-clients div{
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 500px;
+    }
+    #footer-div{
+        display: block;
+        text-align: center;
+        margin: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #footer-copyright p{
+        max-width: none;
+    }
+}
