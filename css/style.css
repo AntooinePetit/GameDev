@@ -14,7 +14,7 @@
 }
 
 body{
-    background:linear-gradient(212.91deg, rgba(0, 0, 0, 0.24) 100%, rgba(0, 0, 0, 0.98) 100%),  url(/img/Background1.jpg);
+    background:linear-gradient(212.91deg, rgba(0, 0, 0, 0.24) 100%, rgba(0, 0, 0, 0.98) 100%),  url(../img/Background1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -218,7 +218,7 @@ header nav a:hover{
 
 #artist{
     min-height: 1017px;
-    background-image: url(/img/Background2.jpg);
+    background-image: url(../img/Background2.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding-bottom: 50px;
@@ -276,7 +276,7 @@ header nav a:hover{
 
 #popular-platform{
     min-height: 1104px;
-    background-image: url(/img/Background2.jpg);
+    background-image: url(../img/Background2.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -426,49 +426,49 @@ header nav a:hover{
 }
 
 #wor{
-    background: linear-gradient(212.91deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.98) 100%), url(/img/WorldOfRobots.jpg);
+    background: linear-gradient(212.91deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.98) 100%), url(../img/WorldOfRobots.jpg);
     background-size: cover;
 }
 
 #ba{
-    background: linear-gradient(212.91deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.98) 100%), url(/img/BeautifulAmalthea.jpg);
+    background: linear-gradient(212.91deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.98) 100%), url(../img/BeautifulAmalthea.jpg);
     background-size: cover;
 }
 
 #twl{
-    background: linear-gradient(212.91deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.98) 100%), url(/img/TheWarriorsLounge.jpg);
+    background: linear-gradient(212.91deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.98) 100%), url(../img/TheWarriorsLounge.jpg);
     background-size: cover;
 }
 
 #ja{
-    background: linear-gradient(212.91deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.98) 100%), url(/img/JungleAdventures.jpg);
+    background: linear-gradient(212.91deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.98) 100%), url(../img/JungleAdventures.jpg);
     background-size: cover;
 }
 
 #wor:hover{
-    background-image: url(/img/WorldOfRobots.jpg);
+    background-image: url(../img/WorldOfRobots.jpg);
     transition: 0.3s;
 }
 
 #ba:hover{
-    background-image: url(/img/BeautifulAmalthea.jpg);
+    background-image: url(../img/BeautifulAmalthea.jpg);
     transition: 0.3s;
 }
 
 #twl:hover{
-    background-image: url(/img/TheWarriorsLounge.jpg);
+    background-image: url(../img/TheWarriorsLounge.jpg);
     transition: 0.3s;
 }
 
 #ja:hover{
-    background-image: url(/img/JungleAdventures.jpg);
+    background-image: url(../img/JungleAdventures.jpg);
     transition: 0.3s;
 }
 
 /* Section 5 : Choose Us & Popular Clients */
 
 #cupc{
-    background: linear-gradient(to left, rgba(41, 52, 69, 0.6) -26.48%, rgba(41, 52, 69, 0.6) 73.52%), url(/img/Background3Et4.jpg);
+    background: linear-gradient(to left, rgba(41, 52, 69, 0.6) -26.48%, rgba(41, 52, 69, 0.6) 73.52%), url(../img/Background3Et4.jpg);
     background-size: cover;
 }
 
@@ -522,7 +522,7 @@ header nav a:hover{
 
 #contact{
     min-height: 756px;
-    background: linear-gradient(212.91deg, rgba(0, 0, 0, 0.46) 100%, rgba(0, 0, 0, 0.98) 100%),  url(/img/Background5.jpg);
+    background: linear-gradient(212.91deg, rgba(0, 0, 0, 0.46) 100%, rgba(0, 0, 0, 0.98) 100%),  url(../img/Background5.jpg);
     background-size: cover;
     align-content: center;
     text-align: center;

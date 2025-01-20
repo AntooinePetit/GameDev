@@ -1,4 +1,4 @@
-# Magnet Studio
+# Game Development Studio
 
 This project is the sixth HTML/CSS project of the Developpement langage à la carte training.
 It allows practicing the basic concepts of the HTML and CSS languages.
